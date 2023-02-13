@@ -1,0 +1,17 @@
+<html>
+<head>
+  <script>
+    function validateName() {
+      var name = document.getElementById("name").value;
+      var names = ["John", "Jane", "Jim", "Joan"];
+      if (names.includes(name)) {
+        alert("The name you entered matches a name in the list.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <input type="text" id="name">
+  <button onclick="validateName()">Check name</button>
+</body>
+</html>
